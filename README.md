@@ -1,9 +1,9 @@
 # agent-java-testNG
-A TestNG reporter that uploads the results to a ReportPortal server.
+A TestNG reporter that uploads the results to a adaklabs.
 
 > **DISCLAIMER**: We use Google Analytics for sending anonymous usage information such as agent's and client's names, and their versions
-> after a successful launch start. This information might help us to improve both ReportPortal backend and client sides. It is used by the
-> ReportPortal team only and is not supposed for sharing with 3rd parties.
+> after a successful launch start. This information might help us to improve both adaklabs backend and client sides. It is used by the
+> adaklabs team only and is not supposed for sharing with 3rd parties.
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.epam.reportportal/agent-java-testng.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.epam.reportportal%22%20AND%20a:%22agent-java-testng%22)
 [![CI Build](https://github.com/reportportal/agent-java-testNG/actions/workflows/ci.yml/badge.svg)](https://github.com/reportportal/agent-java-testNG/actions/workflows/ci.yml)
@@ -48,9 +48,9 @@ TestNG agent can handle next events:
 -   Successful finish of configuration
 -   Skip configuration
 
-## Objects interrelation TestNG - ReportPortal
+## Objects interrelation TestNG - adaklabs
 
-| **TestNG object**    | **ReportPortal object**       |
+| **TestNG object**    | **adaklabs object**       |
 |----------------------|-------------------------------|
 | LAUNCH               |LAUNCH                         |
 | BEFORE_SUITE         |TestItem (type = BEFORE_SUITE) |
@@ -68,7 +68,7 @@ TestNG agent can handle next events:
 | AFTER_SUITE          |TestItem (type = AFTER_SUITE)  |
 | AFTER_GROUPS         |TestItem (type = AFTER_GROUPS) |
 
-TestItem – report portal specified object for representing:  suite, test, method objects in different test systems. Used as tree structure and can be recursively placed inside himself.
+TestItem – adaklabs specified object for representing:  suite, test, method objects in different test systems. Used as tree structure and can be recursively placed inside himself.
 
 ## Dependencies
 > Minimum supported TestNG version: [7.1.0](https://search.maven.org/artifact/org.testng/testng/7.1.0/jar)
@@ -104,11 +104,11 @@ Choose latest version.
 
 By default, TestNG attaches a few basic listeners to generate HTML and XML
 reports. For reporting TestNG test events (ie start of test, successful finish
-of test, test fail) to ReportPortal user should add ReportPortal TestNg
+of test, test fail) to adaklabs user should add adaklabs TestNg
 listener to run and configure input parameters. 
 
 ### Listener parameters
-Description of listeners input parameters and how to configure it see “Parameters” in [Configuration section](http://reportportal.io/docs/JVM-based-clients-configuration).
+
 Which are common for all **JVM based** agents.
 
 ### Listener class:

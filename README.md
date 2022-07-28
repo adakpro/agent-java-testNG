@@ -5,14 +5,8 @@ A TestNG reporter that uploads the results to a adaklabs.
 > after a successful launch start. This information might help us to improve both adaklabs backend and client sides. It is used by the
 > adaklabs team only and is not supposed for sharing with 3rd parties.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.epam.reportportal/agent-java-testng.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.epam.reportportal%22%20AND%20a:%22agent-java-testng%22)
-[![CI Build](https://github.com/reportportal/agent-java-testNG/actions/workflows/ci.yml/badge.svg)](https://github.com/reportportal/agent-java-testNG/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/reportportal/agent-java-testNG/branch/develop/graph/badge.svg?token=CshHrWt7sS)](https://codecov.io/gh/reportportal/agent-java-testNG)
-[![Join Slack chat!](https://reportportal-slack-auto.herokuapp.com/badge.svg)](https://reportportal-slack-auto.herokuapp.com)
-[![stackoverflow](https://img.shields.io/badge/reportportal-stackoverflow-orange.svg?style=flat)](http://stackoverflow.com/questions/tagged/reportportal)
-[![Build with Love](https://img.shields.io/badge/build%20with-❤%EF%B8%8F%E2%80%8D-lightgrey.svg)](http://reportportal.io?style=flat)
 ---
-- [Objects interrelation TestNG - ReportPortal](https://github.com/reportportal/agent-java-testNG#objects-interrelation-testng---reportportal)
+- [Objects interrelation TestNG - adaklabs](https://github.com/reportportal/agent-java-testNG#objects-interrelation-testng---reportportal)
 - [Dependencies](https://github.com/reportportal/agent-java-testNG#dependencies)
 - [Install listener](https://github.com/reportportal/agent-java-testNG#install-listener)
   - [Listener class](https://github.com/reportportal/agent-java-testNG#listener-class)

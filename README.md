@@ -263,6 +263,3 @@ As a sample you can use code for **Override UUID** in run-time
 
 ## Example repository
 
-There are two modules under Example project which represent agent usage with Lo4j and Logback loggers:
-* https://github.com/reportportal/examples-java/tree/master/example-testng-log4j
-* https://github.com/reportportal/examples-java/tree/master/example-testng-logback
